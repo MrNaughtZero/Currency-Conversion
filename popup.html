@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="/style.css" type="text/css" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="align">
+          <h2>Bitcoin Money Converter</h2>
+        </div>
+        
+        <div class="align">
+          <p>Current Exchange Price: <span id="full-price">£59,393</span></p>
+        </div>
+        
+        <div class="convert">
+          <div class="flex-col">
+            <label for="bitcoin_amount">Bitcoin Amount</label>
+            <input type="number" step="0.5" id="bitcoin-amount">
+          </div>
+          <div class="align">
+            <span>=</span>
+          </div>
+          <div class="flex-col">
+            <label for="bitcoin_amount"><span id="currency-symbol">£</label>
+            <input type="number" id="amount">
+          </div>
+        </div>
+          
+        <div class="currency-change">
+            <div class="flex-col">
+                <label for="change_currency">Change Currency</label>
+                <select id="currency-select" name="currency-change">
+                    <option value="GBP">£</option>
+                    <option value="USD">$</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="align">
+            <p>
+                Exchange rates from <a href="https://blockchain.info" target="_blank">Blockchain.info</a>
+            </p>
+        </div>
+    </div>
+      <script src="/main.js"></script>
+</body>
+</html>

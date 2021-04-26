@@ -1,0 +1,28 @@
+.wrapper {
+    background: #efefef;
+    width: 350px;
+    padding: 10px;
+    border-radius: 2px;
+}
+  
+.align {
+    text-align: center;
+}
+  
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.equals {
+    position: relative;
+    top: 6px;
+}
+
+.equals span {
+    font-size: 18px;
+}
+
+.currency-change {
+    margin-top: 10px;
+}
